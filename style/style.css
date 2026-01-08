@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* Shared Style */
+
+.shared_btn{
+    color: #FFFFFF;
+    background-color: #469165;
+    padding: 13px 17px ;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.shared_btn:hover{
+    background-color: rgba(188, 237, 7, 0.664);
+    color: #000000;
+    transition: 0.3s ease;
+}
+
+/* Main Style */
+.nav_container{
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.nav_container .nav_list  ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav_list ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+} 
