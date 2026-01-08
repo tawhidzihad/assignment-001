@@ -215,6 +215,7 @@
     list-style: none;
 }
 
+/* li disgned for check circle picture */
 ul li{
     display: flex;
     gap: 6px;
