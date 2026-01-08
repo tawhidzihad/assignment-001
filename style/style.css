@@ -28,7 +28,7 @@
     max-width: 1600px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 24px auto;
 }
@@ -179,4 +179,44 @@
     color: #627382;
     font-size: 16px;
     line-height: 20px;
+}
+
+/* Third Section Style */
+.section_three .solution_box {
+    max-width: 1600px;
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.solution_text{
+    margin-right: 140px;
+}
+
+.solution_text h4{
+    color: #469165;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    font-weight: 500;
+}
+
+.solution_text p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.solution_text ul{
+    list-style: none;
+}
+
+ul li{
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
 }
