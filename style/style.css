@@ -30,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px auto;
+    margin: 24px auto;
 }
 
 .nav_container .nav_list  ul{
@@ -45,3 +45,67 @@
     font-size: 16px;
     font-weight: 500;
 } 
+
+/* Hero Section One Style */
+.section_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('/assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    height:80vh;
+}
+
+.early_access{
+    margin-bottom: 30px;
+}
+
+.early_access a{
+    text-decoration: none;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    padding: 8px 12px;
+    border-radius: 1000px;
+}
+
+.section_container h1{
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 90px;
+    margin-bottom: 16px;
+}
+
+.section_container .color_text{
+    color: #30B868;
+}
+
+.section_container p{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.hero_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero_button .btn_with_imge{
+    display: flex;
+    gap: 10px;
+}
+
+.transparent{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
