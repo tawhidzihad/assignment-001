@@ -20,7 +20,7 @@
 }
 
 .shared_btn:hover{
-    background-color: rgba(188, 237, 7, 0.664);
+    background-color: #E5E7EB;
     color: #000000;
     transition: 0.3s ease;
 }
@@ -116,7 +116,7 @@
 .section_two{
     max-width: 1600px;
     width: 100%;
-    margin: 100px auto;
+    margin: 50px auto;
 }
 
 .section_two .card_heading{
@@ -272,4 +272,60 @@ ul li{
     display: inline-flex;
     gap: 12px;
     margin-bottom: 16px;
+}
+
+/* This is footer style */
+footer{
+    max-width: 2200px;
+    width: 100%;
+    background-color: #001931;
+    padding-top: 120px;
+    padding-bottom:20px;
+    text-align: center;
+}
+
+.footer_container{
+    max-width: 1272px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_links h5{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.footer_links a{
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    margin-right: 16px;
+    padding: 3px;
+}
+
+.footer_links i{
+    color: #000000;
+}
+
+footer .last_d{
+    max-width: 1250px;
+    width: 100%;
+    margin: 80px auto 0px;
+}
+
+.last_d hr{
+    color: rgb(229, 231, 235);
+    opacity: 0.2;
+    margin-bottom: 30px;
+}
+
+.last_d p{
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight:400;
 }
