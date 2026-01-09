@@ -15,6 +15,8 @@
     border-radius: 5px;
     font-size: 16px;
     font-weight: 600;
+
+    box-shadow: 3px 3px 10px rgba(66, 60, 60, 0.418);
 }
 
 .shared_btn:hover{
@@ -219,5 +221,47 @@
 ul li{
     display: flex;
     gap: 6px;
+    margin-bottom: 16px;
+    color: #001931;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* This Is Fourth Section Style */
+.section_four{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+}
+
+.section4_container{
+    background-color: #F7F6F2;
+    max-width: 1272px;
+    width: 100%;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.section4_container h2{
+    color: #001931;
+    font-size: 43px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.section4_container p{
+    color: #627382;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+/* This is inline-flex */
+.section4_container .taugh_button{
+    display: inline-flex;
+    gap: 12px;
     margin-bottom: 16px;
 }
